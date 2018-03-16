@@ -1,0 +1,62 @@
+ctrl + alt + L = отформатировать код по понятиям.
+
+Вспомнить параметры метода
+Забыли параметры метода? Не беда, поместите курсор в скобки и нажмите комбинацию клавиш Ctrl+P. Подсказка поможет вам сообразить.
+
+
+Быстрое создание копии строки кода
+Нажмите комбинацию Ctrl+D (дублирование), чтобы быстро создать копию строки кода под указателем мыши.
+
+
+Переход к следующему/предыдущему методу
+Используйте горячие клавиши Alt+v для перехода к следующему методу, и Alt+^ для перехода к предыдущему методу.
+
+
+Есть некоторые правила, которым нужно следовать Android Code Style Guidelines for Contributors. А Android Studio поможет сгенерировать правильное имя.
+
+Непубличные, нестатические имена полей должны начинаться с префикса m
+Статические имена полей должны начинаться с префикса s
+
+
+Для едиттекста типы вывода клавиатуры
+
+ метлод inputType  xml тег
+
+text
+textCapCharacters (клавиатура с символами в верхнем регистре)
+textCapWords
+textCapSentences
+textAutoCorrect
+textAutoComplete
+textMultiLine
+textImeMultiLine
+textNoSuggestions (без подсказок при вводе текста)
+textUri
+textEmailAddress
+textEmailSubject
+textShortMessage
+textLongMessage
+textPersonName
+textPostalAddress
+textPassword
+textVisiblePassword (без автокоррекции)
+textWebEditText
+textFilter
+textPhonetic
+number
+numberSigned
+numberDecimal
+phone
+datetime
+date
+time
+
+// Отменяет движение интерфейса при появлении клавиатуры.
+android:windowSoftInputMode="adjustPan"
+
+
+
+
+
+
+
